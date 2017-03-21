@@ -8,7 +8,6 @@ todos.getTodos = function (req,res,next) {
       res.json(err)
     } else {
       res.json(data)
-      console.log(data);
     }
   })
 }
